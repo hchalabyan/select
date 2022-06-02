@@ -1,0 +1,22 @@
+.Button {
+  border: 1px solid #B4B000;
+  border-radius: 33px;
+  padding: 12px 0;
+  width: 184px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 72px;
+  :hover{
+    cursor: pointer;
+  }
+  > button{
+    color: #B4B000;
+    font-size: 16px;
+    border: none;
+    background: none;
+    width: 100%;
+    height: 100%;
+
+  }
+}

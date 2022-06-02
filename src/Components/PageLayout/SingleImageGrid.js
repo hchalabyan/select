@@ -1,11 +1,11 @@
 import React from "react";
-import ExportButton from "../../ExportButton/ExportButton";
-import { ReactComponent as DateIcon } from "../../../assets/icons/date-icon.svg";
-import { ReactComponent as ViewIcon } from "../../../assets/icons/view-icon.svg";
-import { ReactComponent as ContentIcon } from "../../../assets/icons/page-layout-1-content-palcaeholder.svg";
-import { ReactComponent as FaceIcon } from "../../../assets/icons/facebook-icon.svg";
-import { ReactComponent as TwitterIcon } from "../../../assets/icons/twitter-icon.svg";
-import { ReactComponent as InstaIcon } from "../../../assets/icons/instagram-icon.svg";
+import ExportButton from "../ExportButton/ExportButton";
+import { ReactComponent as DateIcon } from "../../assets/icons/date-icon.svg";
+import { ReactComponent as ViewIcon } from "../../assets/icons/view-icon.svg";
+import { ReactComponent as ContentIcon } from "../../assets/icons/page-layout-1-content-palcaeholder.svg";
+import { ReactComponent as FaceIcon } from "../../assets/icons/facebook-icon.svg";
+import { ReactComponent as TwitterIcon } from "../../assets/icons/twitter-icon.svg";
+import { ReactComponent as InstaIcon } from "../../assets/icons/instagram-icon.svg";
 
 import Style from "style-it";
 import moment from "moment";

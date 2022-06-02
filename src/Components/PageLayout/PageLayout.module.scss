@@ -1,0 +1,31 @@
+.PageLayout{
+  margin-bottom: 80px;
+  h3{
+    color: #8F9293;
+    font-size: 11px;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+  }
+  .PageButtonsWrapper{
+    display: flex;
+    .SignatureLayoutImage{
+      >svg{
+        width: 122px;
+        height: 122px;
+        &:last-of-type{
+            width: 146px;
+          height: 146px;
+        }
+      }
+    }
+    p{
+      margin: 0;
+      font-size: 13px;
+      font-family: Roboto, sans-serif;
+      &.activeText{
+        color: #B4B000;
+      }
+    }
+  }
+
+}

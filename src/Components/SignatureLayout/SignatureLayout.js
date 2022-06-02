@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import classes from "./TemplateType.module.scss";
-import RadioButton from "../radioButton/radioButton";
+import classes from "./SignatureLayout.module.scss";
+import RadioButton from "../RadioButton/RadioButton";
 import { ReactComponent as LeftAlign } from "../../assets/icons/email-layout1.svg";
 import { ReactComponent as CenterAlign } from "../../assets/icons/email-layout2.svg";
 import { ReactComponent as RightAlign } from "../../assets/icons/email-layout3.svg";
-import TemplateLayout from "../TemplateLayout/TemplateLayout";
-const TemplateType = (props) => {
+import TemplateLayout from "./TemplateLayout/TemplateLayout";
+const SignatureLayout = (props) => {
   const [elementPosition, setElementPosition] = useState("left");
   const position = [
     { id: 0, img: <LeftAlign />, text: "Left Align", label: "left" },
@@ -14,7 +14,7 @@ const TemplateType = (props) => {
   ];
   return (
     <>
-      <div className={classes.TemplateType}>
+      <div className={classes.SignatureLayout}>
         <h3>Template Type</h3>
         <div className={classes.TemplateButtonsWrapper}>
           {position.map((button) => {
@@ -45,4 +45,4 @@ const TemplateType = (props) => {
     </>
   );
 };
-export default TemplateType;
+export default SignatureLayout;

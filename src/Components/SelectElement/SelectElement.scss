@@ -1,0 +1,55 @@
+.SelectElement{
+  padding-left: 7.2%;
+  width: 39%;
+  min-width: 754px;
+}
+.react-select-container{
+  width: 100%;
+  max-width: 754px;
+  height: 44px;
+  border-radius: 8px;
+  border: 1px solid #DDDDDD;
+  margin: 6.5% auto 60px 0;
+  padding: 1px;
+  .react-select {
+    &__placeholder{
+      color: rgba(67,67,67,0.25);
+    }
+    &__control{
+      height: 100%;
+      border: none;
+      outline: none;
+      position: relative;
+      &:after{
+        content: "";
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 8px solid #8F9293;
+        display: block;
+        right: 15.5px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: all .5s;
+      }
+      &--menu-is-open{
+        &:after{
+          transform: rotate(180deg) translateY(50%);
+        }
+      }
+    }
+    &__indicator-separator{
+      display: none;
+    }
+    &__indicator{
+      > svg{
+        display: none;
+      }
+    }
+
+  }
+
+
+}
